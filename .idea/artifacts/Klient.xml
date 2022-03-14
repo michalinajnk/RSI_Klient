@@ -5,7 +5,6 @@
       <element id="archive" name="Klient.jar">
         <element id="module-output" name="Lista_1_Fras_Klient" />
       </element>
-      <element id="library" level="project" name="xmlrpc-1.2-b1" />
     </root>
   </artifact>
 </component>

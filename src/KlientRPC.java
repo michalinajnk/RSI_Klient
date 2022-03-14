@@ -8,8 +8,9 @@ public class KlientRPC {
 
     public static void main(String[] args) {
         try {
+            MyData.info();
             String address = args.length>0 && Pattern.matches("\\d+\\.\\d+\\.\\d+\\.\\d+",args[0])?args[0]:"localhost";//if first argument doesn't seem like an address, use localhost
-            XmlRpcClient srv = new XmlRpcClient(String.format("http://%s:10005",address));
+            XmlRpcClient srv = new XmlRpcClient(String.format("http://%s:10004",address));
             Vector<Integer> params = new Vector<Integer>();
             params.addElement(Integer.valueOf(13));
             params.addElement(Integer.valueOf(21));
