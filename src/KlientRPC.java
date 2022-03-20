@@ -23,6 +23,18 @@ public class KlientRPC {
             params2.addElement(Integer.valueOf(3000));
             srv.executeAsync("MojSerwer.execAsy", params2, cb);
             System.out.println("Wywolano asynchronicznie");
+            
+            System.out.println("Is the task done?: ");
+
+
+            Vector<Object> params3 = new Vector<Object>();
+
+            params3.addElement("c");
+            params3.addElement("it has been already done");
+            params3.addElement( 1.5);
+            params3.addElement( 1);
+            Object result2 = (String) srv.execute("MojSerwer.handleTask", params3);
+            System.out.println(result2.toString());
 
 
 
