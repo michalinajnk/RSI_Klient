@@ -50,6 +50,7 @@ public class GUI {
 
         ipRow.add(ipField);
         ipRow.add(ipButton);
+        main.add(ipRow);
 
         primesRow.add(primesMinField);
         primesRow.add(primesMaxField);
