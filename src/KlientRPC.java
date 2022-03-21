@@ -68,8 +68,13 @@ public class KlientRPC {
             Vector<Object> params = new Vector<Object>();
             params.addElement(min);
             params.addElement(max);
+
             AC cb = new AC();
             srv.executeAsync("MojSerwer.myPrimes", params, cb);
+
+            Object result = srv.execute("MojSerwer.myPrimes", params);
+            System.out.println(result.toString());
+
         } catch (Exception e){
             System.err.println("Calling myPrimes: " + e.toString());
         }
