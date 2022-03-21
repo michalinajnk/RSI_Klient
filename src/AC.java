@@ -7,7 +7,7 @@ import java.net.URL;
 public class AC implements  AsyncCallback {
 
     public void handleResult(Object rezultat, URL url, String metoda){
-        System.out.println("Adres URL to: " + url.toString()+ "Rezultat metody: " + metoda + "jest: " + rezultat.toString());
+        System.out.println("Adres URL to: " + url.toString()+ "Rezultat metody: " + metoda + " jest: " + rezultat.toString());
 
     }
 
