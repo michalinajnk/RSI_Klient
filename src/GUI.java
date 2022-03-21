@@ -34,7 +34,7 @@ public class GUI {
 
 
     JPanel infoRow = new JPanel();
-    JButton infoButton = new JButton("Info");
+    JButton infoButton = new JButton("Show");
     JButton testButton = new JButton("Test");
 
     public GUI(){
@@ -95,7 +95,7 @@ public class GUI {
                 } else if (src.equals(handleButton)) {
                     KlientRPC.task(handle1Field.getText(),handle2Field.getText(),Double.parseDouble(handle3Field.getText()),Integer.parseInt(handle4Field.getText()));
                 } else if (src.equals(infoButton)) {
-                    KlientRPC.info();
+                    KlientRPC.show();
                 } else if (src.equals(testButton)) {
                     KlientRPC.demo();
                 } else {

@@ -55,9 +55,9 @@ public class KlientRPC {
             System.err.println("Autoconnection failed");
         }
     }
-    public static void info(){
+    public static void show(){
         try {
-            Object result = srv.execute("MojSerwer.info", new Vector());
+            Object result = srv.execute("MojSerwer.show", new Vector());
             System.out.println(result.toString());
         } catch (Exception e){
             System.err.println("Info call: " + e.toString());
@@ -112,7 +112,7 @@ public class KlientRPC {
         dist(51.1,17.03,50.0,19.9);
         dist(-33.9,18.4,52.2,21.0);
         task("cos","costam",1.0,2);
-        info();
+        show();
     }
 }
 
