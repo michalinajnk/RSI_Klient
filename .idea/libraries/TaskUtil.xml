@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TaskUtil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../TaskUtil/out/artifacts/TaskUtil_jar/TaskUtil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
