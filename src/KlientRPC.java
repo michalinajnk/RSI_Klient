@@ -58,7 +58,7 @@ public class KlientRPC {
     public static void show(){
         try {
             Object result = srv.execute("MojSerwer.show", new Vector());
-            System.out.println(result.toString());
+            System.out.println("SHOW: "+result.toString());
         } catch (Exception e){
             System.err.println("Info call: " + e.toString());
         }
@@ -72,9 +72,6 @@ public class KlientRPC {
             AC cb = new AC();
             srv.executeAsync("MojSerwer.myPrimes", params, cb);
 
-            Object result = srv.execute("MojSerwer.myPrimes", params);
-            System.out.println(result.toString());
-
         } catch (Exception e){
             System.err.println("Calling myPrimes: " + e.toString());
         }
@@ -87,7 +84,7 @@ public class KlientRPC {
             params.addElement(lat2);
             params.addElement(lon2);
             Object result2 = srv.execute("MojSerwer.distance", params);
-            System.out.println(result2.toString());
+            System.out.println("DIST: "+result2.toString());
         } catch (Exception e){
             System.err.println("Calling distance: " + e.toString());
         }
@@ -100,7 +97,7 @@ public class KlientRPC {
             params.addElement(p3);
             params.addElement(p4);
             Object result2 = srv.execute("MojSerwer.handleTask", params);
-            System.out.println(result2.toString());
+            System.out.println("TASK: "+result2.toString());
         } catch (Exception e){
             System.err.println("Calling handleTask: " + e.toString());
         }
