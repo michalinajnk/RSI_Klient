@@ -24,7 +24,7 @@ public class MyClient {
         }
         System.out.println("Referencja do "+adres+" jest pobrana.");
         try {
-            wynik = zObiekt.calculate(1.1, 2.2);
+            wynik = zObiekt.calculate(0.3, 0.7);
         } catch (Exception e) {
             System.out.println("Blad zdalnego wywolania.");
             e.printStackTrace();
@@ -44,8 +44,8 @@ public class MyClient {
         System.out.println("Referencja do "+adres2+" jest pobrana.");
         try {
             inObj = new InputType();
-            inObj.x1=1.0;
-            inObj.x2=1.5;
+            inObj.x1=101.1;
+            inObj.x2=202.2;
             inObj.operation="add";
             wynik2 = zObiekt2.calculate(inObj);
         } catch (Exception e) {
