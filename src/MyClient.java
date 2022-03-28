@@ -53,7 +53,7 @@ public class MyClient {
             e.printStackTrace();
             return;
         }
-        System.out.println("Wynik = "+wynik2);
+        System.out.println(wynik2.result_description+", wynik = "+wynik2.result);
         return;
 
 
