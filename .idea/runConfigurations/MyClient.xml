@@ -1,5 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="MyClient" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="ALTERNATIVE_JRE_PATH" value="15" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="MyClient" />
     <module name="Lista_1_Fras_Klient" />
     <option name="PROGRAM_PARAMETERS" value="//localhost:1099/action1 //localhost:1099/action2" />
