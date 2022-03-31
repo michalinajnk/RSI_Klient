@@ -1,6 +1,8 @@
-public class MyClient {
-    public static void main(String[] args) {
+import java.net.UnknownHostException;
 
+public class MyClient {
+    public static void main(String[] args) throws UnknownHostException {
+        MyData.info();
         double wynik;
         ResultType wynik2;
         InputType inObj;
