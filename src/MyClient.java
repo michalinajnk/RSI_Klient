@@ -1,8 +1,10 @@
 import java.net.UnknownHostException;
 
 public class MyClient {
-    public static void main(String[] args) throws UnknownHostException {
-        MyData.info();
+    public static void main(String[] args) {
+        try {
+            MyData.info();
+        } catch (UnknownHostException e) {e.printStackTrace();}
         double wynik;
         ResultType wynik2;
         InputType inObj;
