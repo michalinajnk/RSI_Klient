@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ComputePi" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="15" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="VAR" value="45" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="ComputePi" />
+    <module name="Lista_1_Fras_Klient" />
+    <option name="PROGRAM_PARAMETERS" value="//localhost:1099" />
+    <option name="VM_PARAMETERS" value="-Djava.security=srv.policy " />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

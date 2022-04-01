@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="compute">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../RSI_Serwer/src/compute.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../RSI_Serwer/out/artifacts/compute.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

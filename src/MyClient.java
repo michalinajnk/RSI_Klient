@@ -1,6 +1,7 @@
 import java.net.UnknownHostException;
 
 public class MyClient {
+    /*
     public static void main(String[] args) {
         try {
             MyData.info();
@@ -62,4 +63,6 @@ public class MyClient {
 
 
     }
+
+     */
 }
